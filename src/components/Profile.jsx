@@ -1,4 +1,7 @@
-
+import linkedinIcon from "../assets/linkedin.png";
+import githubIcon from "../assets/github.png";
+import profilePic from "../assets/profile-pic.png";
+import resumeFile from "../assets/Resume.pdf";
 import "./Profile.css";
 
 function Profile(){
@@ -9,7 +12,7 @@ function Profile(){
         <h3>Frontend Developer</h3>
         <p>I create modern, responsive and user-friendly web applications.</p>
         <div className="profile-buttons">
-            <a href="./src/assets/Resume.pdf" className="btn btn-primary"
+            <a href={resumeFile} className="btn btn-primary"
             >Download CV</a>
            <a href="#contact" className="btn secondary">Contact Me</a>
 
@@ -19,25 +22,25 @@ function Profile(){
         
          <div className="socials-container">
           <img
-            src="./src/assets/linkedin.png"
+            src={linkedinIcon}
             alt="my linkedin profile"
             className="icon"
            onClick={() => {
-            window.location.href = "https://linkedin.com/";
+            window.location.href = "https://www.linkedin.com/in/deepika-limbu-1599833a6/?skipRedirect=true";
             }}
           />
           <img
-            src="./src/assets/github.png"
+            src={githubIcon}
             alt="my github profile"
             className="icon"
             onClick={() => {
-             window.location.href = "https://github.com/";
+             window.location.href = "https://github.com/dpkalimbu-dev";
             }}
           />
       </div>
       </div>
       <div className="profile-image">
-        <img src="./src/assets/profile-pic.png" alt="Deepika" />
+        <img src={profilePic} alt="Deepika" />
       </div>
     </section>
     );

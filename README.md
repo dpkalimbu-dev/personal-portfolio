@@ -3,7 +3,7 @@
 A modern and responsive portfolio website built using React and CSS.
 It showcases my projects, skills, and contact information.
 
-## 🔗 Live Demo
+## 🔗 [[Live Demo](https://dpkalimbu-dev.github.io/personal-portfolio/)]
 
 ## 💻 Tech Stack
 
