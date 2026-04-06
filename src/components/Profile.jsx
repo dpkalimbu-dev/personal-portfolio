@@ -6,7 +6,7 @@ import "./Profile.css";
 
 function Profile(){
     return(
-    <section className="profile">
+    <section id="profile" className="profile">
         <div className="profile-text">
         <h1>Hi I'm <span>Deepika Limbu</span></h1>
         <h3>Frontend Developer</h3>

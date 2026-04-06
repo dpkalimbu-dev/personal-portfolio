@@ -5,9 +5,10 @@ function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
+    
     <nav className="navbar">
       <h2 className="logo">
-        <a href="profile">Deepika Limbu</a>
+        <a href="#profile" onClick={() => setIsOpen(false)}>Deepika Limbu</a>
       </h2>
 
       <div
