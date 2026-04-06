@@ -1,3 +1,6 @@
+import experienceIcon from "../assets/experience.png";
+import educationIcon from "../assets/education.png";
+import arrowIcon from "../assets/arrow.png";
 import "./About.css";
 
 function About(){
@@ -10,7 +13,7 @@ function About(){
         <div className="about-details-container">
          <div className="details-container">
               <img
-                src="./src/assets/experience.png"
+                src={experienceIcon}
                 alt="experience icon"
                 className="icon"
               />
@@ -19,7 +22,7 @@ function About(){
             </div>
             <div className="details-container">
               <img
-                src="./src/assets/education.png"
+                src={educationIcon}
                 alt="Education icon"
                 className="icon"
               />
@@ -38,7 +41,7 @@ function About(){
         </div>
       </div>
       <img
-        src="./src/assets/arrow.png"
+        src={arrowIcon}
         alt="Arrow icon"
         className="icon arrow"
         onClick={() => {

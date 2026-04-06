@@ -1,3 +1,5 @@
+import checkmarkIcon from "../assets/checkmark.png";
+import arrowIcon from "../assets/arrow.png";
 import "./Skills.css";
 
 function Skills(){
@@ -15,7 +17,7 @@ function Skills(){
       <div className="skills-grid">
 
         <div className="skills-item">
-          <img src="./src/assets/checkmark.png" alt="checkmark" className="icon" />
+          <img src={checkmarkIcon} alt="checkmark" className="icon" />
           <div>
             <h4>HTML5</h4>
             
@@ -23,35 +25,35 @@ function Skills(){
         </div>
 
         <div className="skills-item">
-          <img src="./src/assets/checkmark.png" alt="checkmark" className="icon" />
+          <img src={checkmarkIcon} alt="checkmark" className="icon" />
           <div>
             <h4>Bootstrap 5</h4>
           </div>
         </div>
 
         <div className="skills-item">
-          <img src="./src/assets/checkmark.png" alt="checkmark" className="icon" />
+          <img src={checkmarkIcon} alt="checkmark" className="icon" />
           <div>
             <h4>CSS3</h4>
           </div>
         </div>
 
         <div className="skills-item">
-          <img src="./src/assets/checkmark.png" alt="checkmark" className="icon" />
+          <img src={checkmarkIcon} alt="checkmark" className="icon" />
           <div>
             <h4>JavaScript (ES6)</h4>
           </div>
         </div>
 
         <div className="skills-item">
-          <img src="./src/assets/checkmark.png" alt="checkmark" className="icon" />
+          <img src={checkmarkIcon} alt="checkmark" className="icon" />
           <div>
             <h4>jQuery</h4>
           </div>
         </div>
 
         <div className="skills-item">
-          <img src="./src/assets/checkmark.png" alt="checkmark" className="icon" />
+          <img src={checkmarkIcon} alt="checkmark" className="icon" />
           <div>
             <h4>React</h4>
           </div>
@@ -67,41 +69,41 @@ function Skills(){
       <div className="skills-grid">
 
         <div className="skills-item">
-          <img src="./src/assets/checkmark.png" alt="checkmark" className="icon" />
+          <img src={checkmarkIcon} alt="checkmark" className="icon" />
           <div>
             <h4>Node JS</h4>
           </div>
         </div>
 
         <div className="skills-item">
-          <img src="./src/assets/checkmark.png" alt="checkmark" className="icon" />
+          <img src={checkmarkIcon} alt="checkmark" className="icon" />
           <div>
             <h4>React Hooks</h4>
           </div>
         </div>
 
         <div className="skills-item">
-          <img src="./src/assets/checkmark.png" alt="checkmark" className="icon" />
+          <img src={checkmarkIcon} alt="checkmark" className="icon" />
           <div>
             <h4>GitHub</h4>
           </div>
         </div>
 
         <div className="skills-item">
-          <img src="./src/assets/checkmark.png" alt="checkmark" className="icon" />
+          <img src={checkmarkIcon} alt="checkmark" className="icon" />
           <div>
             <h4>Babel</h4>
           </div>
         </div>
 
         <div className="skills-item">
-          <img src="./src/assets/checkmark.png" alt="checkmark" className="icon" />
+          <img src={checkmarkIcon} alt="checkmark" className="icon" />
           <div>
             <h4>Async Programming</h4>
           </div>
         </div>
          <div className="skills-item">
-          <img src="./src/assets/checkmark.png" alt="checkmark" className="icon" />
+          <img src={checkmarkIcon} alt="checkmark" className="icon" />
           <div>
             <h4>REST API's</h4>
           </div>
@@ -110,7 +112,7 @@ function Skills(){
     </div>
   </div>
   <img
-        src="./src/assets/arrow.png"
+        src={arrowIcon}
         alt="Arrow icon"
         className="icon arrow"
         onClick={() => {

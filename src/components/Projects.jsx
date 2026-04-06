@@ -1,5 +1,8 @@
+import project1 from "../assets/project-1.png";
+import project2 from "../assets/project-2.png";
+import project3 from "../assets/project-3.png";
+import arrowIcon from "../assets/arrow.png";
 import "./Projects.css";
-
 function Projects(){
     return(
         <section id="projects" className="section">
@@ -7,7 +10,7 @@ function Projects(){
       <h2 className="section-title">Projects</h2>
       <div className="projects-grid">
         <div className="project-card">
-          <img src="./src/assets/project-1.png" alt="Project 1" />
+          <img src={project1} alt="Project 1" />
           <div className="project-content">
             <h3>React Weather App</h3>
             <div className="project-buttons">
@@ -22,7 +25,7 @@ function Projects(){
         </div>
 
         <div className="project-card">
-          <img src="./src/assets/project-2.png" alt="Project 2" />
+          <img src={project2} alt="Project 2" />
           <div className="project-content">
             <h3>Dynamic-To-Do List</h3>
             <div className="project-buttons">
@@ -33,7 +36,7 @@ function Projects(){
         </div>
 
         <div className="project-card">
-          <img src="./src/assets/project-3.png" alt="Project 3" />
+          <img src={project3} alt="Project 3" />
           <div className="project-content">
             <h3>Workout Tracker Map</h3>
             <div className="project-buttons">
@@ -44,7 +47,7 @@ function Projects(){
         </div>
       </div>
       <img
-        src="./src/assets/arrow.png"
+        src={arrowIcon}
         alt="Arrow icon"
         className="icon arrow"
          onClick={() => {

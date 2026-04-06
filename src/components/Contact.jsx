@@ -1,5 +1,6 @@
+import emailIcon from "../assets/email.png";
+import linkedinIcon from "../assets/linkedin.png";
 import "./Contact.css";
-
 function Contact(){
     return(
         <>
@@ -39,14 +40,14 @@ function Contact(){
       <div className="contact-info-upper-container">
         <div className="contact-info-container">
           <img
-            src="./src/assets/email.png"
+            src={emailIcon}
             alt="Email icon"
             className="icon contact-icon email-icon"/>
           <p><a href="mailto:dlimbu.dev@gmail.com">dlimbu.dev@gmail.com</a></p>
         </div>
         <div className="contact-info-container">
           <img
-            src="./src/assets/linkedin.png"
+            src={linkedinIcon}
             alt="linkedin icon"
             className="icon contact-icon"/>
           <p>
